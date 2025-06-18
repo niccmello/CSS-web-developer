@@ -1,0 +1,210 @@
+h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+.content {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    height: 56px;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.menu {
+    margin: 16px 24px;
+    display: flex;
+    gap: 30px;
+}
+
+.menu img {
+    height: 24px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+} 
+
+.search button {
+    width: 57px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.icons {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons img {
+    height: 24px;
+    cursor: pointer;
+}
+
+main.content {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+main section {
+    width: 950px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section img {
+    background-color: aqua;
+    width: 100%;
+    height: 540px;
+}
+
+main section h1 {
+    margin: 16px 0;
+}
+
+main section .principal {
+    display: flex;
+    gap: 30px;
+}
+
+main section .canal {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+main section .canal img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+main section .canal span {
+    display: flex;
+    flex-direction: column ;
+}
+
+main section .canal span p {
+    margin-top: 2px;
+    color: #515151;
+}
+
+main section .principal button {
+    background-color: #CC0000;
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+main section .funcoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+main section .funcoes div {
+    display: flex;
+    align-items: center;
+}
+
+main section .funcoes div a {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+main section .funcoes div a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+main section .funcoes div a h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+main section h2.info {
+    margin: 16px 0;
+}
+
+main section p.desc {
+    width: 600px;
+    color: #515151;
+}
+
+main aside {
+    width: 375px;
+    min-height: 300px ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main aside div.sidebar {
+    height: 90px;
+    display: flex;
+    gap: 16px;
+}
+
+main aside div.sidebar:hover {
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+
+main aside figure img {
+    width: 160px;
+    height: 90px;
+}
+
+main aside .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main aside .text p {
+    font-size: 12px;
+    font-weight: 400;
+}
