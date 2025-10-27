@@ -1,0 +1,30 @@
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 505px 573px repeat(2, 507px) 560px 140px ;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-image: url(./images/Header\ Background.svg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-width: 100vw;
+    box-sizing: border-box;
+    grid-column: 1 / -1;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;      
+    height: auto;    
+    min-height: 200px;
+    margin: 24px;
+    gap: 24px;
+}
