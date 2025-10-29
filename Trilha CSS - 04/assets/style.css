@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     display: grid;
@@ -27,4 +30,72 @@ header {
     min-height: 200px;
     margin: 24px;
     gap: 24px;
+}
+
+#title {
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    max-width: 278px;
+    font-family: "Luckiest Guy", sans-serif;
+    font-weight: 400px;
+    size: 32px;
+    color: white;
+}
+
+#description {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 381px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    size: 16px;
+    color: white;
+    letter-spacing: 0%;
+    line-height: 1.2;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    height: auto;
+    width: 100%;
+}
+
+#download, #open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 54px;
+    border-radius: 28px;
+    gap: 16px;
+}
+
+#download {
+    display: flex;
+    background-color: white;
+    color: #23272A;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#open {
+    display: flex;
+    background-color: #23272A;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
