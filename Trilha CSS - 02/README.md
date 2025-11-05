@@ -4,7 +4,7 @@
 <br></br>
 
 # <strong><i>EN-US</i></strong>
-# Challenge 01: Creating a Youtube clone with CSS & HTML
+# Challenge 02: Creating a Youtube clone with CSS & HTML
 
 <br></br>
 
